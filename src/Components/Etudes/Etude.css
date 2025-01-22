@@ -1,0 +1,56 @@
+.etudes {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.etudes-left {
+    flex-basis: 40%;
+    position: relative;
+}
+
+.etudes-right {
+    flex-basis: 56%;
+}
+
+.etudes-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.etudes h3 {
+    font-weight: 600;
+    color: orange;
+    font-weight: 16px;
+}
+
+.etudes h2 {
+    font-size: 30px;
+    color: darkblue;
+    margin: 10px 0;
+    max-width: 400px;
+}
+
+.etudes p {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+@media (max-width:800px) {
+    .etudes {
+        flex-direction: column;
+    }
+
+    .etudes-left {
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+
+    .etudes-right {
+        flex-basis: 100%;
+
+    }
+}

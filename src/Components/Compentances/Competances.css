@@ -1,0 +1,78 @@
+.Competances {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+
+
+.skills__data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+}
+
+
+
+.skills__names {
+    display: flex;
+    align-items: center;
+}
+
+.skills__bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: darkblue;
+    height: 0.25rem;
+    border-radius: 0.5rem;
+    z-index: 2;
+}
+
+.skills__html {
+    width: 95%;
+}
+
+.skills__css {
+    width: 95%;
+}
+
+.skills__js {
+    width: 15%;
+
+}
+
+.skills__java {
+    width: 85%;
+}
+
+.skills__php {
+    width: 75%;
+}
+
+.skills__sql {
+    width: 45%;
+}
+
+.skills__bs {
+    width: 75%;
+}
+
+.skills__react {
+    width: 25%;
+}
+
+.skills__ci {
+    width: 25%;
+}
+
+@media (max-width:800px) {
+    .Competances {
+        flex-wrap: wrap;
+    }
+}
